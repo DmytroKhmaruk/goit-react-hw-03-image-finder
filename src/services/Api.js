@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+const baseUrl = `https://pixabay.com/api/`;
+  
 const fetchImages = async (searchImagesName, numPage, perPage) => {
-  const baseUrl = `https://pixabay.com/api/`;
   const paramsUrl = {
     params: {
       key: '37645850-cbffd1b84ba77554534d72cec',
